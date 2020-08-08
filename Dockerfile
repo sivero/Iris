@@ -1,5 +1,5 @@
-FROM circleci/python:3.7.5
-
+FROM python:3.7.6-buster
+#FROM circleci/python:3.7.5
 
 # Switch to the root user while we do our changes
 USER root
